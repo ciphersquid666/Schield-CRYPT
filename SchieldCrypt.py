@@ -136,6 +136,18 @@ def save_encrypted_data_to_file(encrypted_data: str, salt: bytes):
     else:
         print(colored("Encrypted data was not saved.", "red"))
 
+def print_triangle():
+    print(colored("""
+       /\\
+      /  \\    𝘾𝙞𝙥𝙝𝙚𝙧 
+     /    \\
+    /______\\
+   /\\      /\\   𝙎𝙦𝙪𝙞𝙙
+  /  \\    /  \\
+ /    \\  /    \\
+/______\\/______\\
+""", "green"))
+
 def main():
     print(colored("=====================================", 'cyan'))
     print(colored("[×] SHIELD-CRYPT Tool by 𝘾𝙞𝙥𝙝𝙚𝙧 𝙎𝙦𝙪𝙞𝙙 ", 'red'))
@@ -143,6 +155,7 @@ def main():
     print(colored("=====================================", 'cyan'))
 
     print(colored("=== Welcome to the Encryption Tool ===", "green"))
+    print_triangle()  # Display the ASCII triangle
     print_separator()
     
     action = choose_action()
