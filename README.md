@@ -6,6 +6,8 @@
 
 ## 🚀 Features
 
+![Schield-CRYPT Banner](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJOLmHXizGSRv59PmfAvXRwUSmT1SxOYZg2yXn46M5gMJ8tT9t0S2Xowo&s=10)
+
 - **AES-GCM Encryption**: Provides AES encryption in GCM mode, ensuring both confidentiality and integrity.
 - **PBKDF2 Key Derivation**: Implements strong password-based key derivation for generating secure AES keys.
 - **Password Validation**: Enforces secure password requirements — at least 16 characters, including uppercase letters, numbers, and symbols.
