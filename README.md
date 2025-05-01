@@ -38,7 +38,7 @@ pip install pycryptodome termcolor
 
 1. Run the script using the command:
    ```bash
-   python encryption_tool.py
+   python SchieldCrypt.py
    ```
 
 2. Select encryption mode when prompted.
@@ -53,7 +53,7 @@ pip install pycryptodome termcolor
 
 1. Run the script using the command:
    ```bash
-   python encryption_tool.py
+   python SchieldCrypt.py
    ```
 
 2. Select decryption mode when prompted.
