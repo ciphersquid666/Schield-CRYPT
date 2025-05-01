@@ -137,6 +137,11 @@ def save_encrypted_data_to_file(encrypted_data: str, salt: bytes):
         print(colored("Encrypted data was not saved.", "red"))
 
 def main():
+    print(colored("=====================================", 'cyan'))
+    print(colored("[×] SHIELD-CRYPT Tool by 𝘾𝙞𝙥𝙝𝙚𝙧 𝙎𝙦𝙪𝙞𝙙 ", 'red'))
+    print(colored("[×] Use responsibly!", 'yellow'))
+    print(colored("=====================================", 'cyan'))
+
     print(colored("=== Welcome to the Encryption Tool ===", "green"))
     print_separator()
     
