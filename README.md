@@ -23,7 +23,7 @@ Install the dependencies using `pip`:
 ```bash
 pip install pycryptodome termcolor
 
-🔑 Usage
+## 🔑 Usage
 
 Encrypting a Message
 
@@ -62,7 +62,7 @@ python encryption_tool.py
 
 
 
-🛡️ Password Requirements
+## 🛡️ Password Requirements
 
 For maximum security, the password must meet the following criteria:
 
@@ -75,7 +75,7 @@ Contains at least one number.
 Contains at least one special character from !@#$%^&*()_-+=<>?.
 
 
-⚠️ Error Handling
+## ⚠️ Error Handling
 
 The script uses custom exceptions for encryption and decryption errors:
 
@@ -109,15 +109,15 @@ Enter the salt (hex format): <salt_in_hex>
 
 Decrypted text: Hello, world!
 
-📋 Logging
+## 📋 Logging
 
 All encryption and decryption actions, as well as errors, are logged into the encryption.log file. This provides transparency and helps track any issues during the process.
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. Make sure to follow best practices for security and clean code.
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
